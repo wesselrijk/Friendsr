@@ -13,30 +13,66 @@
         android:layout_gravity="center"
         android:layout_margin="8dp"
         android:layout_weight="1"
-        app:columnCount="4">
+        app:columnCount="3">
 
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+        <ImageButton
+            android:id="@+id/jorahButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/jorah" />
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+        <ImageButton
+            android:id="@+id/aryaButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/arya" />
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+        <ImageButton
+            android:id="@+id/cerceiButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/cersei" />
 
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+        <ImageButton
+            android:id="@+id/daenerysButton3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/daenerys" />
+
+        <ImageButton
+            android:id="@+id/jaimeButton4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/jaime" />
+
+        <ImageButton
+            android:id="@+id/jonButton5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/jon" />
+
+        <ImageButton
+            android:id="@+id/margaeryButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/margaery" />
+
+        <ImageButton
+            android:id="@+id/melisandreButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/melisandre" />
+
+        <ImageButton
+            android:id="@+id/sansaButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/sansa" />
+
+        <ImageButton
+            android:id="@+id/tyrionButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/tyrion" />
     </android.support.v7.widget.GridLayout>
 </LinearLayout>
