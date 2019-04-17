@@ -41,4 +41,8 @@ public class MainActivity extends AppCompatActivity {
                 "With a name like that, everyone will take you seriously. That's a great feature to have in life!",
                 10));
     }
+
+    FriendAdapter adapter = new FriendAdapter(this, R.layout.grid_item, friends);
+
+    //findViewById(R.id.grid_layout1).setAdapter(adapter);//TODO use the findviewbyId on to find R.id.grid_layout and set the adapter to it???
 }
