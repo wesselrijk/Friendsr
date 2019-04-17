@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         friends.add(new Friend("Arya", "A young Stark girl, with a knack for killing.",
                 1)); //TODO stackoverflow: https://stackoverflow.com/questions/16862000/java-android-getresources-getidentifier
         // https://stackoverflow.com/questions/15488238/using-android-getidentifier
+        // ImageViewReference.setImageResource(aDrawableId) heeft hier ook mee te maken
         friends.add(new Friend("Cercei", "Queen or something at the moment.",
                 2));
         friends.add(new Friend("Daenerys",
@@ -44,5 +45,5 @@ public class MainActivity extends AppCompatActivity {
 
     FriendAdapter adapter = new FriendAdapter(this, R.layout.grid_item, friends);
 
-    //findViewById(R.id.grid_layout1).setAdapter(adapter);//TODO use the findviewbyId on to find R.id.grid_layout and set the adapter to it???
+    convertView.findViewById(R.id.grid_layout1).setAdapter(adapter);//TODO use the findviewbyId on to find R.id.grid_layout and set the adapter to it???
 }

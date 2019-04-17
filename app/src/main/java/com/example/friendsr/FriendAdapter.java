@@ -21,7 +21,7 @@ public class FriendAdapter extends ArrayAdapter<Friend> {
         this.friendList = objects;
     }
 
-    // getView() override TODO:
+    // getView() override TODO: convertView.findViewById(), give views an id in the layout designer
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         if (convertView == null) {
