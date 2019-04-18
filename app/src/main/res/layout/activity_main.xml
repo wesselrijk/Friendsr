@@ -2,19 +2,18 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
     tools:context=".MainActivity">
 
-    <android.support.v7.widget.GridLayout
-        android:id="@+id/grid_layout1"
-        android:layout_width="wrap_content"
+    <GridView
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:layout_margin="8dp"
-        android:layout_weight="1"
-        app:columnCount="3">
+        android:numColumns="3">
 
         <!--<ImageButton-->
         <!--android:id="@+id/jorahButton"-->
@@ -85,5 +84,5 @@
         <!--android:layout_height="100dp"-->
         <!--android:scaleType="centerInside"-->
         <!--app:srcCompat="@drawable/tyrion" />-->
-    </android.support.v7.widget.GridLayout>
+    </GridView>
 </LinearLayout>
